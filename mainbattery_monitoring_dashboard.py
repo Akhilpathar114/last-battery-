@@ -1456,8 +1456,7 @@ else:
 
 # Footer with enhanced styling
 st.markdown("---")
-st.markdown(
-    """
+st.markdown(f"""
     <div style='text-align: center; color: #666; padding: 20px;'>
         <p>🔋 <strong>Enhanced Battery Cell Monitoring Dashboard</strong> | Professional Real-time Monitoring System</p>
         <p style='font-size: 0.9rem; opacity: 0.8;'>
@@ -1466,12 +1465,13 @@ st.markdown(
         <p style='font-size: 0.8rem; opacity: 0.6;'>
             Developed for Professional Battery Testing Applications
         </p>
+        <p style='font-size: 0.85rem; color: #555; margin-top: 10px;'>
+            Capacity Range: {config['capacity_range'][0]}-{config['capacity_range'][1]} Ah<br>
+            Temperature: {config['temp_range'][0]}°C to {config['temp_range'][1]}°C
+        </p>
     </div>
-    """, 
-    unsafe_allow_html=True
-)}-{config['capacity_range'][1]}Ah
-            - Temperature: {config['temp_range'][0]}°C to {config['temp_range'][1]}°C
-            """)
+""", unsafe_allow_html=True)
+
     
     with config_col2:
         for i, (cell_type, config) in enumerate(list(CELL_CONFIGS.items())[2:]):
