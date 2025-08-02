@@ -1470,7 +1470,7 @@ st.markdown(
     """, 
     unsafe_allow_html=True
 ){config['capacity_range'][0]}-{config['capacity_range'][1]} Ah
-            - Temperature: {config['temp_range'][0]}°C to {config['temp_range'][1]}°C
+            - Temperature: {config['temp_range'][0]}\u00B0C to {config['temp_range'][1]}\u00B0C
             """)
     
     with config_col2:
