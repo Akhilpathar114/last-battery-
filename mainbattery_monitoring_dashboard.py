@@ -1469,7 +1469,7 @@ st.markdown(
     </div>
     """, 
     unsafe_allow_html=True
-)]}-{config['capacity_range'][1]} Ah
+)}-{config['capacity_range'][1]}Ah
             - Temperature: {config['temp_range'][0]}°C to {config['temp_range'][1]}°C
             """)
     
