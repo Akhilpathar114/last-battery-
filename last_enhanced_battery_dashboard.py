@@ -1414,7 +1414,7 @@ else:
     4. **Start Monitoring** - Click '▶️ Start' to begin real-time data collection
     5. **Export Data** - Use the export buttons to download CSV files for analysis
     
-    💡 **Pro Tips:**
+    **Pro Tips:**
     - Use auto-refresh for real-time monitoring
     - Export data regularly for backup
     - Monitor safety alerts closely
