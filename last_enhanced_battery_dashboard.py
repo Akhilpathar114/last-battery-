@@ -1429,9 +1429,8 @@ else:
         st.markdown("""
         **Standard Test**
         - Duration: 2 hours
-        # - Charge Rate: 1A
-
-        - Discharge Rate: 1A
+        - Charge Rate:1
+        - Discharge Rate:1
         - Target Temp: 25°C
         """)
     
